@@ -1,0 +1,39 @@
+﻿*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	margin: 0 auto;
+}
+
+form
+{
+	margin: 0 auto;
+	width: 600px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	background-color: #FFB730;
+}
+
+textarea
+{
+	resize: none;
+	width: 80%;
+	margin: 0 auto;
+}
+
+label
+{
+	margin: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+p
+{
+	font-style: italic;
+}
