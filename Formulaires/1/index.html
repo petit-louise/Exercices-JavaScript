@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Formulaire</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Formulaire">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+<form action="#" method="post">
+
+	<fieldset class="civilites">
+		<legend>Civilités</legend>
+
+		<div>
+			<label>Nom</label>
+			<input type="text" name="nom" id="nom" value="">
+			<span></span>
+		</div>
+
+		<div>
+			<label>Prénom</label>
+			<input type="text" name="prenom" id="prenom" value="">
+			<span></span>
+		</div>
+
+		<div>
+			<label>Civilité</label>
+			<select id="select">
+				<option value="selectionnez">Sélectionnez</option>
+				<option value="mademoiselle">Mademoiselle</option>
+				<option value="madame">Madame</option>
+				<option value="monsieur">Monsieur</option>
+			</select>
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Adresse</legend>
+
+		<div>
+			<label>Rue</label>
+			<textarea id="rue"></textarea>
+		</div>
+
+		<div>
+			<label>Ville</label>
+			<textarea id="ville"></textarea>
+		</div>
+
+		<div>
+			<label>Code Postal</label>
+			<textarea id="code"></textarea>
+			<span></span>
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Infos personnelles</legend>
+
+		<div>
+			<label>Age</label>
+			<input type="number" name="age" id="age" value="">
+			<span></span>
+		</div>
+
+		<div>
+			<label>e-mail</label>
+			<input type="email" name="mail" id="mail" value="">
+			<span></span>
+		</div>
+	</fieldset>
+
+
+	<button type="button" class="btn">Valider</button>
+</form>
+
+<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
