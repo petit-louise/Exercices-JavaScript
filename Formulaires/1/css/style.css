@@ -1,0 +1,38 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	margin: 0 auto;
+}
+form
+{
+	width: 600px;
+	text-align: center;
+	margin: 0 auto;
+}
+fieldset
+{
+	text-align: left;
+	margin: 30px;
+	border: 1px solid #CCC;
+}
+
+input, select, textarea
+{
+	width: 100%;
+	border: 1px solid #CCC;
+}
+textarea
+{
+	resize: none;
+}
+button
+{
+	border-radius: 30px;
+	border: 1px solid #5CB85C;
+	color: white;
+	background-color: #5CB85C;
+	padding: 10px;
+}
