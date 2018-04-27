@@ -1,0 +1,42 @@
+﻿*
+{
+	transition: all 0.3s ease 0s;
+}
+
+h1
+{
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 150px;
+	margin: 10px auto;
+	background-color: #223F47;
+	font-weight: bold;
+}
+section
+{
+	height: 300px;
+	width: 500px;
+	margin: 0 auto;
+	overflow: hidden; /*cache ce qui dépasse*/
+}
+.imgSlider
+{
+	display: flex;
+	position: relative; /*permet d'utiliser left dans le jvs*/
+	left: 0;
+}
+.btn
+{
+	text-align: center;	
+}
+button
+{
+	margin: 30px;
+	background-color: #223F47;
+	font-weight: bold;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 15px;
+	width: 150px;
+}
